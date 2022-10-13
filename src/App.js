@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+import ItemListCont from "./Components/ItemListContainer";
+import ProductosAPI from "./APIrest/Productos.js"
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div className='principal_cont'>
+            <NavBar />
+            <h2>Productos</h2>
+            <div className='card-cont'>
+                {ProductosAPI.map((producto, i) => (
+                    <ItemListCont key={i}
+                        name={producto.name}
+                        image={producto.image}
+                        size={producto.size}
+                    />
+                ))}
+            </div>
+        </div>
+
+
+    );
+
 }
 
 export default App;
