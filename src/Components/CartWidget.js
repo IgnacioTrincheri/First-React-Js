@@ -5,7 +5,7 @@ import CartIcon from '../img/CartIcon.png'
 function CartWidget() {
     return (
         <div>
-            <Button variant="outline-secondary">
+            <Button variant="secondary">
                 <img src={CartIcon} alt='Imagen carrito' />
             </Button>{' '}
         </div>
