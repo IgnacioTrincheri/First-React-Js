@@ -1,5 +1,5 @@
 import Button from 'react-bootstrap/Button';
-import CartIcon from '../img/CartIcon.png'
+import CartIcon from '../Img/CartIcon.png'
 
 
 function CartWidget() {

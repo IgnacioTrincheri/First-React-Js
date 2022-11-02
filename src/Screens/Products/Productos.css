@@ -1,0 +1,7 @@
+.Carta img{
+    width: 300px;
+    height: auto;
+}
+.Carta{
+    display: flex;
+}
