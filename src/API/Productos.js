@@ -1,7 +1,7 @@
 const ProductosApi = [{
     name: "Remera Lisa",
     type:"Remera",
-    color: "Blanca",
+    color: "Blanco",
     image: "https://sublitextil.com.ar/wp-content/uploads/2019/01/Remera-sublimar-hombre-.jpg",
     size: "s-m-l"
 },
@@ -14,19 +14,19 @@ const ProductosApi = [{
 }, {
     name: "Remera Lisa",
     type:"Remera",
-    color: "rojo",
+    color: "Rojo",
     image: "https://http2.mlstatic.com/D_NQ_NP_629947-MLA48096395323_112021-Y.webp",
     size: "l-xl"
 }, {
     name: "Remera Piqué",
     type:"Chomba",
-    color: "Blanca",
+    color: "Blanco",
     image: "https://d2r9epyceweg5n.cloudfront.net/stores/001/110/871/products/chomba-blanca1-dbb1dd3532e91bc3fb16029413060169-1024-1024.jpg",
     size: "s-m-l"
 }, {
     name: "Remera Piqué",
     type:"Chomba",
-    color: "Negra",
+    color: "Negro",
     image: "https://http2.mlstatic.com/D_NQ_NP_603635-MLA46794058134_072021-W.jpg",
     size: "s-m-l"
 }, {
@@ -38,7 +38,7 @@ const ProductosApi = [{
 }, {
     name: "Camiseta Oficial Selección Argentina 2022",
     type:"Seleccion",
-    color: "Celeste y Blanca",
+    color: "Celeste, Blanco",
     image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg",
     size: "s-m-l"
 }, {
@@ -50,7 +50,7 @@ const ProductosApi = [{
 }, {
     name: "Camisa Leñador",
     type:"Camisa",
-    color: "Roja y Negra",
+    color: "Rojo, Negro",
     image: "https://http2.mlstatic.com/D_NQ_NP_733987-MLC51791780721_102022-W.jpg",
     size: "s-m-l-xl-xxl"
 }, {
@@ -68,7 +68,7 @@ const ProductosApi = [{
 }, {
     name: "Camisa Lisa",
     type:"Camisa",
-    color: "Blanca",
+    color: "Blanco",
     image: "https://http2.mlstatic.com/D_NQ_NP_707988-MLA31132652426_062019-W.jpg",
     size: "s-m-l-xl"
 }
